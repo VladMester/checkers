@@ -160,9 +160,9 @@ public class Checkers {
     // Returns color of the winner.
     public String winnerIs() {
         if (blackcheckers == 0)
-            return "red";
-        else
             return "black";
+        else
+            return "red";
     }
 
     public static void main(String args[]) throws IOException {
